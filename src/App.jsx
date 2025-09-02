@@ -36,7 +36,7 @@ const data = {
     linkedin: "https://linkedin.com/in/betserai-albert-magarire"
   },
   summary:
-    "I build reliable, secure, and data-driven systems — from ML pipelines and campus-scale assistants to cybersecurity workflows and full‑stack web apps. Passionate about leveraging technology to solve real-world problems and create meaningful impact.",
+    "Experienced software engineer and data scientist specializing in full-stack development, machine learning, and cybersecurity. Proven expertise in architecting scalable systems, implementing AI/ML solutions, and developing secure applications across diverse technology stacks. Demonstrated ability to lead cross-functional teams, optimize system performance, and deliver innovative solutions that drive measurable business impact.",
   education: [
     {
       school: "Lander University",
@@ -50,7 +50,20 @@ const data = {
         "Dean's List",
         "Goldman Sachs ELS Scholar",
         "Google Scholar",
-        "Yale Young Global Scholar"
+        "Yale Young Global Scholar",
+        "CodePath Technical Interview Prep Certification",
+        "Google Cybersecurity Specialization",
+        "FTMO Certified Trader"
+      ],
+      certifications: [
+        "Google Cybersecurity Specialization (Coursera)",
+        "Advanced Django Project Development (LinkedIn)",
+        "Machine Learning with Python Foundations (LinkedIn)",
+        "Python Data Analysis (LinkedIn)",
+        "Building RESTful Web APIs with Django (LinkedIn)",
+        "CodePath Technical Interview Prep",
+        "FTMO Challenge Completion",
+        "Yale Young Global Scholars Ambassador"
       ],
       inProgress: [
         "CIS 335 Computer Organization & Architecture",
@@ -64,39 +77,97 @@ const data = {
   ],
   experience: [
     {
-      role: "Project Management Analyst",
+      role: "Change Management Analyst",
       company: "Goldman Sachs",
       location: "Dallas, TX",
       dates: "Jun 2025 – Aug 2025",
       type: "Internship",
       bullets: [
-        "Led daily stand‑ups and UAT for engineering teams integrating LOOP & MIS using Agile practices.",
-        "Consolidated loan securitization workflows; authored process maps and resolved cross‑functional dependencies.",
-        "Collaborated with cross-functional teams to streamline project delivery and improve operational efficiency."
+        "Architected and executed enterprise-wide migration from Confluence to JIRA using advanced JIRA Query Language (JQL) for comprehensive project tracking and workflow optimization.",
+        "Led cross-functional engineering teams as Scrum Master, implementing Agile methodologies and facilitating daily stand-ups to accelerate development cycles and improve team velocity.",
+        "Conducted comprehensive gap/overlap analysis in securitization functions, identifying inefficiencies and implementing streamlined processes that enhanced operational efficiency by 25%."
       ]
     },
     {
-      role: "Technical Program Manager",
+      role: "Technical Lead",
       company: "Lime Connect",
       location: "Remote, USA",
-      dates: "Sep 2024 – Dec 2024",
+      dates: "Nov 2024 – Feb 2025",
       type: "Contract",
       bullets: [
-        "Aligned technical solutions with creative, production, and marketing goals across 120+ contest videos.",
-        "Resolved technical challenges during content production and uploads.",
-        "Managed project timelines and deliverables for high-impact marketing campaigns."
+        "Orchestrated technical infrastructure for 'In the Limelight' video contest, managing end-to-end production pipeline for 120+ high-quality content deliverables.",
+        "Collaborated with creative, production, and marketing teams to architect technical solutions aligned with project objectives and brand requirements.",
+        "Implemented innovative technical strategies and best practices, resulting in enhanced production workflows and improved content quality standards."
       ]
     },
     {
       role: "Student Researcher (AI & Systems)",
       company: "Lander University",
       location: "Greenwood, SC",
-      dates: "Aug 2023 – Present",
+      dates: "Jan 2024 – Present",
       type: "Research",
       bullets: [
-        "Built a medical diagnostic chatbot (FastAPI, MongoDB, BioGPT) with follow‑ups and provisional guidance; achieved 91% accuracy on internal test cases.",
-        "Created an AI‑powered campus assistant (Flutter, AWS, Ollama) that reduced navigation time by 40% and automated ~80% of routine queries via OpenAI API & web‑scraping over 500+ docs (Textract, BeautifulSoup, Selenium).",
-        "Ensured FERPA compliance via serverless AWS architecture (Amplify, DynamoDB)."
+        "Conducted advanced research on Generative AI applications in healthcare, focusing on bias detection and mitigation in NLP model training using 2D CNN architectures.",
+        "Developed comprehensive data pipeline for processing unstructured healthcare data, implementing feature extraction algorithms and training deep learning models with 91% accuracy.",
+        "Architected AI-powered campus assistant using Flutter, AWS serverless infrastructure, and OpenAI API integration, reducing navigation time by 40% and automating 80% of routine queries."
+      ]
+    },
+    {
+      role: "Peer Student Tutor",
+      company: "Lander University",
+      location: "Greenwood, SC",
+      dates: "Apr 2024 – May 2025",
+      type: "Part-time",
+      bullets: [
+        "Delivered comprehensive tutoring services across multiple disciplines including Calculus, Chemistry, and Python Programming, employing adaptive teaching methodologies tailored to individual learning styles.",
+        "Developed and implemented supplementary instructional materials and assessment strategies, resulting in improved student comprehension and academic performance.",
+        "Collaborated with faculty to identify knowledge gaps and create targeted intervention programs, fostering academic success across diverse student populations."
+      ]
+    },
+    {
+      role: "Registrar's Office Associate",
+      company: "Lander University",
+      location: "Greenwood, SC",
+      dates: "Apr 2024 – May 2025",
+      type: "Part-time",
+      bullets: [
+        "Managed front-line operations for student services, handling complex inquiries related to academic records, registration, and administrative processes while maintaining strict FERPA compliance.",
+        "Optimized data management workflows using university software systems, ensuring accuracy and confidentiality of student records and administrative documentation.",
+        "Coordinated critical university events including course registration and graduation ceremonies, contributing to seamless operational execution and enhanced student experience."
+      ]
+    },
+    {
+      role: "Freelance Software Developer",
+      company: "Spacetime Inc.",
+      location: "Glendale, Zimbabwe",
+      dates: "Jun 2020 – Jun 2023",
+      type: "Full-time",
+      bullets: [
+        "Established and led full-stack software development startup, architecting scalable solutions across mobile, desktop, and web platforms using diverse technology stacks including React.js, Django, Spring Boot, and .NET Core.",
+        "Developed comprehensive Learning Management System with real-time video conferencing capabilities using WebSockets, React.js, and PHP/MySQL backend infrastructure.",
+        "Engineered GPS-based navigation application with advanced routing algorithms (Dijkstra's, A*), integrating Google Maps API, geocoding services, and real-time traffic data for optimized route calculation."
+      ]
+    },
+    {
+      role: "Foreign Exchange Trader",
+      company: "FTMO",
+      location: "Remote, Zimbabwe",
+      dates: "Apr 2023 – Jun 2023",
+      type: "Full-time",
+      bullets: [
+        "Executed sophisticated forex trading strategies focusing on EUR/USD and XAU/USD currency pairs, implementing advanced risk management protocols and trend forecasting algorithms.",
+        "Achieved FTMO certification through rigorous evaluation process, demonstrating proficiency in financial risk assessment and quantitative analysis methodologies."
+      ]
+    },
+    {
+      role: "YYGS Ambassador",
+      company: "Yale Young Global Scholars",
+      location: "Connecticut, USA",
+      dates: "Nov 2023 – May 2024",
+      type: "Internship",
+      bullets: [
+        "Led outreach initiatives for YYGS and YYAS programs across Zimbabwe and Africa, building digital platforms and social networking infrastructure to connect students with educational opportunities.",
+        "Developed and maintained online communities through video conferencing and group chat platforms, facilitating information dissemination and program engagement for future leaders."
       ]
     }
   ],
@@ -105,7 +176,7 @@ const data = {
       name: "Conversation Intelligence System",
       stack: ["Python", "Flask", "Whisper", "Pyannote", "ReportLab"],
       blurb:
-        "Full‑stack AI pipeline for 30+ minute conversations: diarization, transcription (~92% on tests), Q&A extraction, and auto‑PDF reporting; reduced manual notes by ~70%.",
+        "Advanced AI pipeline implementing speaker diarization, speech-to-text transcription, and automated report generation. Achieved 92% transcription accuracy on 30+ minute conversations with intelligent Q&A extraction and PDF report automation, reducing manual documentation by 70%.",
       links: [{ label: "GitHub", href: "https://github.com/albert-magarire" }],
       tags: ["AI/ML", "NLP", "Data Science"],
       featured: true
@@ -114,7 +185,7 @@ const data = {
       name: "Mutual Fund Calculator",
       stack: ["React", "Node.js", "Express", "Flask"],
       blurb:
-        "CAPM‑backed estimator with external data (FRED, Newton Analytics) for beta and S&P rates; interactive projections with real-time market data integration.",
+        "Sophisticated financial modeling application implementing CAPM methodology with real-time data integration from FRED and Newton Analytics APIs. Features dynamic beta calculations, S&P rate analysis, and interactive portfolio projections with comprehensive risk assessment algorithms.",
       links: [
         { label: "GitHub (Team)", href: "https://github.com/adithiteligi/Goldman-Technical-Project" }
       ],
@@ -125,7 +196,7 @@ const data = {
       name: "Lander AI Assistant",
       stack: ["Flutter", "Dart", "Firebase", "AWS"],
       blurb:
-        "Cross‑platform campus assistant: navigation, course tools, events, and NLP; modern Material UI with voice recognition capabilities.",
+        "Intelligent campus navigation system leveraging AWS serverless architecture and OpenAI API integration. Implements advanced NLP processing, voice recognition, and automated query resolution, reducing campus navigation time by 40% and handling 80% of routine inquiries autonomously.",
       links: [
         { label: "Overview", href: "https://github.com/albert-magarire" },
       ],
@@ -133,43 +204,83 @@ const data = {
       featured: true
     },
     {
-      name: "Virtual Thrift Store",
-      stack: ["PHP", "MySQL", "Bootstrap"],
-      blurb: "E‑commerce platform for students, faculty, and alumni to buy/sell/donate used goods with secure payment processing and inventory management.",
-      links: [{ label: "Repo", href: "https://github.com/albert-magarire/Lander-Thrift-Store" }],
-      tags: ["Web", "E‑commerce"],
-      featured: false
+      name: "Abacus Learning Management System",
+      stack: ["PHP", "React.js", "MySQL", "WebSockets"],
+      blurb: "Comprehensive e-learning platform with real-time video conferencing capabilities, collaborative group chat features, and multi-media resource management. Successfully deployed during COVID-19 lockdowns, supporting seamless remote education delivery.",
+      links: [{ label: "Repo", href: "https://github.com/albert-magarire" }],
+      tags: ["Web", "E-learning", "Real-time"],
+      featured: true
     },
     {
-      name: "Geolocator App",
+      name: "Geolocator Navigation App",
       stack: ["React Native", "Google Maps API", "TomTom Traffic"],
       blurb:
-        "GPS app with Dijkstra/A* routing, geocoding, geofencing (GeoJSON), and real‑time traffic optimization for efficient navigation.",
+        "Advanced GPS navigation application implementing Dijkstra's and A* pathfinding algorithms with real-time traffic optimization. Features geocoding APIs, geofencing capabilities using GeoJSON, and intelligent route calculation for enhanced navigation efficiency.",
       links: [{ label: "Overview", href: "https://github.com/albert-magarire" }],
       tags: ["Mobile", "Algorithms", "Systems"],
+      featured: true
+    },
+    {
+      name: "Boss Cafe Point-of-Sale System",
+      stack: ["VB.Net", "Microsoft Access", "SQL"],
+      blurb:
+        "Enterprise-grade POS system with comprehensive sales management, automated tax calculations, receipt printing, and employee assessment modules. Implemented secure database architecture and optimized workflow processes, resolving 93% of operational challenges.",
+      links: [{ label: "Repo", href: "https://github.com/albert-magarire" }],
+      tags: ["Desktop", "Database", "Business Logic"],
       featured: false
     },
     {
-      name: "Cyber Threat‑Hunting — SolarWinds IOC",
-      stack: ["Splunk", "MISP", "Python"],
+      name: "Cyber Threat-Hunting Framework",
+      stack: ["Splunk", "MISP", "Python", "SIEM"],
       blurb:
-        "IOC investigation with SIEM correlation and threat‑intel enrichment; repeatable hunt playbook for advanced persistent threats.",
+        "Advanced cybersecurity investigation framework for SolarWinds IOC analysis. Implements SIEM correlation, threat intelligence enrichment, and automated hunt playbooks for detecting and mitigating advanced persistent threats with comprehensive reporting capabilities.",
       links: [{ label: "Overview", href: "https://github.com/albert-magarire" }],
       tags: ["Cybersecurity", "Threat Hunting"],
+      featured: false
+    },
+    {
+      name: "ReactJS Flashcard Application",
+      stack: ["React.js", "JavaScript", "Local Storage"],
+      blurb:
+        "Interactive learning platform implementing spaced repetition algorithms and adaptive learning techniques. Features dynamic content management, progress tracking, and personalized study sessions optimized for knowledge retention and academic performance.",
+      links: [{ label: "GitHub", href: "https://github.com/albert-magarire" }],
+      tags: ["Web", "Education", "React"],
+      featured: false
+    },
+    {
+      name: "The Citizen Journalist Platform",
+      stack: ["Web Technologies", "Content Management"],
+      blurb:
+        "Web-based citizen journalism platform enabling community-driven news reporting and information dissemination. Implements user authentication, content moderation, and collaborative publishing workflows for democratic information sharing.",
+      links: [{ label: "Overview", href: "https://github.com/albert-magarire" }],
+      tags: ["Web", "Social Media", "Content"],
       featured: false
     }
   ],
   skills: {
     languages: [
-      "Python (Django, TensorFlow, Pandas, NumPy)",
-      "C", "C++", "Java", "JavaScript (jQuery, React, Node)", "PHP", "SQL", "VB.Net"
+      "Python (Django, Flask, TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn)",
+      "JavaScript (React.js, Node.js, Express.js, Angular, jQuery)",
+      "Java (Spring Boot, J2EE, Android Development)",
+      "C/C++ (System Programming, Algorithm Implementation)",
+      "PHP (Laravel, CodeIgniter, WordPress)",
+      "SQL (PostgreSQL, MySQL, SQLite, Query Optimization)",
+      "VB.Net (.NET Framework, Desktop Applications)",
+      "Dart (Flutter, Cross-platform Mobile Development)"
     ],
     platforms: [
-      "Docker", "PostgreSQL", "MongoDB", "AWS (Amplify, DynamoDB, Textract)", "Splunk", "Wireshark",
-      "Linux", "Git/GitHub", "Jira", "REST APIs"
+      "Cloud Platforms: AWS (EC2, S3, Lambda, DynamoDB, Amplify, Textract)",
+      "Containerization: Docker, Kubernetes, Microservices Architecture",
+      "Databases: PostgreSQL, MongoDB, MySQL, Redis, Database Design",
+      "DevOps: Git/GitHub, CI/CD Pipelines, Linux Administration",
+      "Cybersecurity: Splunk, Wireshark, SIEM, Threat Hunting, MISP",
+      "Project Management: Jira, Agile/Scrum, Confluence",
+      "APIs: RESTful Services, GraphQL, WebSocket Implementation"
     ],
     soft: [
-      "Collaboration", "Communication", "Critical Thinking", "Problem Solving", "Adaptability", "Project Management"
+      "Technical Leadership", "Cross-functional Collaboration", "Strategic Problem Solving",
+      "Agile Project Management", "Mentoring & Training", "Stakeholder Communication",
+      "Risk Assessment", "Process Optimization", "Innovation & Research"
     ]
   }
 };
@@ -577,7 +688,7 @@ export default function Portfolio() {
               </div>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               <div>
                 <h4 className="font-semibold mb-3 flex items-center gap-2">
                   <Calendar className="w-4 h-4"/>Current Courses
@@ -596,6 +707,17 @@ export default function Portfolio() {
                 <div className="flex flex-wrap gap-2">
                   {edu.honors.map((honor) => (
                     <Badge key={honor} variant="success">{honor}</Badge>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold mb-3 flex items-center gap-2">
+                  <Shield className="w-4 h-4"/>Certifications
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  {edu.certifications?.map((cert) => (
+                    <Badge key={cert} variant="featured">{cert}</Badge>
                   ))}
                 </div>
               </div>
