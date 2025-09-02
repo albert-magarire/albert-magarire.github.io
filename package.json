@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio website for Albert Magarire",
   "private": true,
+  "type": "module",
   "homepage": "https://albert-magarire.github.io",
   "dependencies": {
     "framer-motion": "^10.16.4",
