@@ -7,6 +7,10 @@ echo "🚀 Starting deployment to GitHub Pages..."
 echo "📦 Building the project..."
 npm run build
 
+# Ensure .nojekyll file exists in dist
+echo "📝 Adding .nojekyll file to disable Jekyll processing..."
+cp .nojekyll dist/
+
 # Deploy to GitHub Pages
 echo "🌐 Deploying to GitHub Pages..."
 npm run deploy
