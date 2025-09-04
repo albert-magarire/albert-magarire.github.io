@@ -26,8 +26,8 @@ import {
 // DATA MODEL (Enhanced with more details)
 // ----------
 const data = {
-  name: "Betserai Albert (Albert) Magarire",
-  title: "Computer Science • Software Engineering • Data Science • Cybersecurity",
+  name: "Betserai (Albert) Magarire",
+  title: "Program Management • Software Engineering • Data Science • Cybersecurity",
   location: "Greenwood, SC, USA",
   contacts: {
     email: "albertmagarire@gmail.com",
@@ -47,20 +47,18 @@ const data = {
       gpa: "3.93/4.00",
       honors: [
         "President's List (multiple terms)",
+        "Lander University Presidential Grant",
         "Dean's List",
         "Goldman Sachs ELS Scholar",
         "Google Scholar",
-        "Yale Young Global Scholar",
-        "CodePath Technical Interview Prep Certification",
-        "Google Cybersecurity Specialization",
-        "FTMO Certified Trader"
+        "Yale Young Global Scholar"
       ],
       certifications: [
-        "Google Cybersecurity Specialization (Coursera)",
-        "Advanced Django Project Development (LinkedIn)",
-        "Machine Learning with Python Foundations (LinkedIn)",
-        "Python Data Analysis (LinkedIn)",
-        "Building RESTful Web APIs with Django (LinkedIn)",
+        "Google Cybersecurity Specialization",
+        "Advanced Django Project Development",
+        "Machine Learning with Python Foundations",
+        "Python Data Analysis",
+        "Building RESTful Web APIs with Django",
         "CodePath Technical Interview Prep",
         "FTMO Challenge Completion",
         "Yale Young Global Scholars Ambassador"
@@ -77,7 +75,7 @@ const data = {
   ],
   experience: [
     {
-      role: "Change Management Analyst",
+      role: "Transformation & Change Management Analyst",
       company: "Goldman Sachs",
       location: "Dallas, TX",
       dates: "Jun 2025 – Aug 2025",
@@ -93,7 +91,7 @@ const data = {
       company: "Lime Connect",
       location: "Remote, USA",
       dates: "Nov 2024 – Feb 2025",
-      type: "Contract",
+      type: "Internship",
       bullets: [
         "Orchestrated technical infrastructure for 'In the Limelight' video contest, managing end-to-end production pipeline for 120+ high-quality content deliverables.",
         "Collaborated with creative, production, and marketing teams to architect technical solutions aligned with project objectives and brand requirements.",
@@ -117,7 +115,7 @@ const data = {
       company: "Lander University",
       location: "Greenwood, SC",
       dates: "Apr 2024 – May 2025",
-      type: "Part-time",
+      type: "On Campus",
       bullets: [
         "Delivered comprehensive tutoring services across multiple disciplines including Calculus, Chemistry, and Python Programming, employing adaptive teaching methodologies tailored to individual learning styles.",
         "Developed and implemented supplementary instructional materials and assessment strategies, resulting in improved student comprehension and academic performance.",
@@ -129,7 +127,7 @@ const data = {
       company: "Lander University",
       location: "Greenwood, SC",
       dates: "Apr 2024 – May 2025",
-      type: "Part-time",
+      type: "On Campus",
       bullets: [
         "Managed front-line operations for student services, handling complex inquiries related to academic records, registration, and administrative processes while maintaining strict FERPA compliance.",
         "Optimized data management workflows using university software systems, ensuring accuracy and confidentiality of student records and administrative documentation.",
@@ -141,7 +139,7 @@ const data = {
       company: "Spacetime Inc.",
       location: "Glendale, Zimbabwe",
       dates: "Jun 2020 – Jun 2023",
-      type: "Full-time",
+      type: "Freelance",
       bullets: [
         "Established and led full-stack software development startup, architecting scalable solutions across mobile, desktop, and web platforms using diverse technology stacks including React.js, Django, Spring Boot, and .NET Core.",
         "Developed comprehensive Learning Management System with real-time video conferencing capabilities using WebSockets, React.js, and PHP/MySQL backend infrastructure.",
